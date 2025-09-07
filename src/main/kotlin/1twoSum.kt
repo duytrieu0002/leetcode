@@ -1,6 +1,7 @@
 package org.example
 
 fun twoSum() {
+    //hashmap
     val nums = intArrayOf(2, 7, 11, 15)
     val target = 9
     val map = HashMap<Int, Int>()

@@ -1,6 +1,7 @@
 package org.example
 
 fun longestSubstringWithoutRepeatingChars() {
+    //Dynamic size sliding window
     val s = "abcabcbb"
 
     val set = mutableSetOf<Char>()

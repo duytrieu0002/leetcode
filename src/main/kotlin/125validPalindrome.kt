@@ -1,6 +1,7 @@
 package org.example
 
 fun validPalindrome(): Boolean {
+    //two pointer
     val s = ".,"
 
     var l = 0
